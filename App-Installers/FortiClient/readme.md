@@ -2,7 +2,9 @@ Installer process for FortiClient vpn
 
 1. Download FortiClient VPN.dmg for your FortiClient source
 2. Mount FortiClient VPN.dmg
+
 ![ss-mounted_dmg](https://user-images.githubusercontent.com/68449783/182494001-bbc3aaca-850f-484a-b318-dcbb3b999728.png)
+
 3. Open Packages.app and create a structure as follows into a .pkg
 <img width="853" alt="ss-pkg_contents" src="https://user-images.githubusercontent.com/68449783/182494027-a6e3ec8d-4bdc-467f-904c-c90b6e84bcbf.png">
 4. Upload FortiClient.pkg to your Jamf Pro (or other) server

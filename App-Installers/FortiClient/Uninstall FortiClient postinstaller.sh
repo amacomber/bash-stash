@@ -19,7 +19,7 @@ sleep 1
 echo "Removing root plist"
 
 # Clean up temp files
-[ -d "/Library/FortiClient/" ] && rm -rf "/Library/FortiClient";
+[ -d "/Library/Company/FortiClient/" ] && rm -rf "/Library/Company/FortiClient";
 echo "Cleaned up installer files."
 
 

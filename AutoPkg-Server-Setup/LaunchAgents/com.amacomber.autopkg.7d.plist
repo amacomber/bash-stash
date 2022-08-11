@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.amacomber.autopkg.7d</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>sh</string>
+		<string>/path/to/autopkg_cleanup_7_days.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+    <true/>
+	<key>StartInterval</key>
+	<integer>604800</integer>
+	<key>StandardOutPath</key>
+	<string>~/Library/Logs/autopkg_run_7d.log</string>
+	<key>StandardErrorPath</key>
+	<string>~/Library/Logs/autopkg_run_7d.log</string>
+</dict>
+</plist>

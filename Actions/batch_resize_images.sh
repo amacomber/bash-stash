@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script resizes all the images it finds in a folder (and its subfolders) and resizes them
+# This script finds all the images it can in a folder (and its subfolders) and resizes them
 # The resized image is placed in the /resized folder which will reside in the same directory as the image
 #
 # Usage: > ./batch_resize.sh

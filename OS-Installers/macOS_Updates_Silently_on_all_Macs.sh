@@ -157,10 +157,14 @@ if [[ ${osvers} -lt 7 ]]; then
         softwareupdate -iaR
     else
 		# Check that the info folder exists, create if missing and set appropriate permissions
+		[ ! -f "$workfolder" ] && /bin/mkdir -p "$workfolder"
 		[ ! -f "$infofolder" ] && /bin/mkdir -p "$infofolder"
-		/bin/chmod 755 "$infofolder"
-		/usr/sbin/chown root:wheel "$infofolder"
-        chflags hidden "$infofolder"
+		/bin/chmod 755 "$workfolder"
+		/bin/chmod 755 "$infofolder"        
+		/usr/sbin/chown root:wheel "$workfolder"
+        /usr/sbin/chown root:wheel "$infofolder"
+        chflags hidden "$workfolder"
+        chflags hidden "$infofolder"        
 
 # Do we have a defer file. Initialize one if not.
 [ ! -f "$updatefile" ] && /usr/bin/defaults write "$updatefile" deferral -int 0

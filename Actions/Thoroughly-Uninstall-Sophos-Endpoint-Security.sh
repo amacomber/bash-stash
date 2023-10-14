@@ -1,6 +1,6 @@
 #!/bin/sh
 
-folder="/Library/Invitae IT"
+folder="/Library/Company IT"
 unin="SophosUninstaller"
 
 # Remove all Sophos support files

@@ -9,7 +9,7 @@ title="Company ITS Support"
 # Path to company icon (you will need to deploy this icon file in another policy).
 icon="/Library/Company ITS Support/icon.png"
 # Setup the heading title and alignment
-heading="Important macOS Update -alignHeading center"
+heading="Important macOS Update"
 # Define the buttons
 button1="Later"
 button2="Install Now"
@@ -79,4 +79,3 @@ Computer will reboot on its own."
     fi
         exit 0
     fi
-      

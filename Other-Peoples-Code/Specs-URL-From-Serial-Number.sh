@@ -72,4 +72,5 @@ fi
 
 specs_url="https://support.apple.com${specs_url_kb_part}"
 
-echo "Specs URL for \"${marketing_model_name}\": ${specs_url}"
+echo "Specs URL for \"${marketing_model_name}\": "${specs_url}""
+open -a Safari.app "${specs_url}"

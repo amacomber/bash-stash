@@ -10,5 +10,5 @@ for a in ${appname[@]} ; do
 	echo "$a"
 	
     # Create the prefs
-    defaults write /Library/Preferences/AllCovered/com.allcovered.installomator."$a".deferralcount.plist deferral -int 0
+    defaults write /Library/Preferences/Company/com.Company.installomator."$a".deferralcount.plist deferral -int 0
     done

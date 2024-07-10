@@ -72,7 +72,7 @@
 #Customizing Window
 
 selfServiceBrandIcon="/Users/$3/Library/Application Support/com.jamfsoftware.selfservice.mac/Documents/Images/brandingimage.png"
-jamfBrandIcon="/Library/Application Support/AllCovered/Images/brandingimage.png"
+jamfBrandIcon="/Library/Application Support/Company/Images/brandingimage.png"
 fileVaultIcon="/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/FileVaultIcon.icns"
 
 if [ ! -z "$4" ]

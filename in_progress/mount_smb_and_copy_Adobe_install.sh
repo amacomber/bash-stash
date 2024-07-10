@@ -18,7 +18,7 @@ then
     pkgLocation="/Volumes/"$shareName"/"$pkgName""
 
     #Create Cache Folder
-    companyFolder="AllCovered"
+    companyFolder="Company"
     cacheFolder="Installers"
     [ ! -d /Library/"$companyFolder" ] && mkdir /Library/"$companyFolder"
     [ ! -d /Library/"$companyFolder"/"$cacheFolder" ] && mkdir /Library/"$companyFolder"/"$cacheFolder"
@@ -57,7 +57,7 @@ else
     pkgLocation="/Volumes/"$shareName"/"$pkgName""
 
     #Create Cache Folder
-    companyFolder="AllCovered"
+    companyFolder="Company"
     cacheFolder="Installers"
     [ ! -d /Library/"$companyFolder" ] && mkdir /Library/"$companyFolder"
     [ ! -d /Library/"$companyFolder"/"$cacheFolder" ] && mkdir /Library/"$companyFolder"/"$cacheFolder"
